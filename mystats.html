@@ -6,9 +6,61 @@
 <body>
 <p>I am Udaya Sri Naidu. I am from India. I completed my under graduation in the stream of computer science and engineering in the year 2022. After that i have work experience of 8months as a Data Analyst in Hcl Technologies. I am the persom who always love adventures and meeting new peoples and cultures.</p>
 
-<h1>Pani Puri</h1>
+<h3>Pani Puri</h3>
 <p>Pani puri is a crispy-fried puffed ball that is filled with potato, chickpeas, onions, spices, and flavoured water, usually tamarind or mint, and popped into one's mouth whole.</p>
 
 <img src = "panipuri.jpg" alt = "panipuri">
+<hr>
+<h3>Sports Table</h3>
+<p>The below table shows different types of sports,reason why to play and how many hours and the reason to recommend it, and how many hours in an average week</p>
+<table>
+    <tr>
+        <th>Name of the sport</th>
+        <th>Reason to play</th>
+        <th>Hours/week</th>
+    </tr>
+    <tr>
+        <td>Football</td>
+        <td>Increases stability</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>chess</td>
+        <td>Improves Creativity</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Swimming</td>
+        <td>Improves Flexibility</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>volleyball</td>
+        <td>Increase concentration</td>
+        <td>9</td>
+    </tr>
+
+</table>
+<hr>
+<h3>Code Snippet</h3>
+<p>Shuffle Children</p>
+<a href="https://stackoverflow.com/questions/73249459/randomise-order-of-specific-children-elements-only" Target="_blank">Stack overflow</a>
+<pre>
+    $.fn.shuffleChildren = function() {
+        $.each(this.get(), function(index, el) {
+            var $el = $(el);
+            var $find = $el.children();
+    
+            $find.sort(function() {
+                return 0.5 - Math.random();
+            });
+    
+            $el.empty();
+            $find.appendTo($el);
+        });
+    };
+</pre>
+<a href = "https://css-tricks.com/snippets/jquery/shuffle-children/">Jquery Snippet code</a>
+
 </body>
 </html>
